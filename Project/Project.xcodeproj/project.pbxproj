@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		890C85B71CF3EBAB0090DADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C85B61CF3EBAB0090DADF /* main.m */; };
-		890C85BA1CF3EBAB0090DADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C85B91CF3EBAB0090DADF /* AppDelegate.m */; };
 		890C85C21CF3EBAB0090DADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890C85C11CF3EBAB0090DADF /* Assets.xcassets */; };
-		890C85C51CF3EBAB0090DADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890C85C31CF3EBAB0090DADF /* LaunchScreen.storyboard */; };
 		890C85D01CF3EBAB0090DADF /* ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C85CF1CF3EBAB0090DADF /* ProjectTests.m */; };
 		890C85DB1CF3EBAB0090DADF /* ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C85DA1CF3EBAB0090DADF /* ProjectUITests.m */; };
+		890C85F11CF448110090DADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C85EA1CF448110090DADF /* AppDelegate.m */; };
+		890C85F21CF448110090DADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C85F01CF448110090DADF /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,7 @@
 /* Begin PBXFileReference section */
 		890C85B21CF3EBAB0090DADF /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890C85B61CF3EBAB0090DADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		890C85B81CF3EBAB0090DADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		890C85B91CF3EBAB0090DADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		890C85C11CF3EBAB0090DADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		890C85C41CF3EBAB0090DADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		890C85C61CF3EBAB0090DADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890C85CB1CF3EBAB0090DADF /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890C85CF1CF3EBAB0090DADF /* ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTests.m; sourceTree = "<group>"; };
@@ -46,6 +43,9 @@
 		890C85D61CF3EBAB0090DADF /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890C85DA1CF3EBAB0090DADF /* ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectUITests.m; sourceTree = "<group>"; };
 		890C85DC1CF3EBAB0090DADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890C85E91CF448110090DADF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		890C85EA1CF448110090DADF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		890C85F01CF448110090DADF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/Other/main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +96,10 @@
 		890C85B41CF3EBAB0090DADF /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				890C85B81CF3EBAB0090DADF /* AppDelegate.h */,
-				890C85B91CF3EBAB0090DADF /* AppDelegate.m */,
+				890C85E81CF448110090DADF /* Classes */,
 				890C85C11CF3EBAB0090DADF /* Assets.xcassets */,
-				890C85C31CF3EBAB0090DADF /* LaunchScreen.storyboard */,
 				890C85C61CF3EBAB0090DADF /* Info.plist */,
+				890C85F01CF448110090DADF /* main.m */,
 				890C85B51CF3EBAB0090DADF /* Supporting Files */,
 			);
 			path = Project;
@@ -130,6 +129,55 @@
 				890C85DC1CF3EBAB0090DADF /* Info.plist */,
 			);
 			path = ProjectUITests;
+			sourceTree = "<group>";
+		};
+		890C85E81CF448110090DADF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				890C85EB1CF448110090DADF /* Essence-精华 */,
+				890C85EC1CF448110090DADF /* FriendTrends-关注 */,
+				890C85ED1CF448110090DADF /* Me-我 */,
+				890C85EE1CF448110090DADF /* New-新帖 */,
+				890C85EF1CF448110090DADF /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		890C85EB1CF448110090DADF /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		890C85EC1CF448110090DADF /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		890C85ED1CF448110090DADF /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		890C85EE1CF448110090DADF /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		890C85EF1CF448110090DADF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				890C85E91CF448110090DADF /* AppDelegate.h */,
+				890C85EA1CF448110090DADF /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890C85C51CF3EBAB0090DADF /* LaunchScreen.storyboard in Resources */,
 				890C85C21CF3EBAB0090DADF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890C85BA1CF3EBAB0090DADF /* AppDelegate.m in Sources */,
+				890C85F11CF448110090DADF /* AppDelegate.m in Sources */,
+				890C85F21CF448110090DADF /* main.m in Sources */,
 				890C85B71CF3EBAB0090DADF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,17 +344,6 @@
 			targetProxy = 890C85D71CF3EBAB0090DADF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		890C85C31CF3EBAB0090DADF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				890C85C41CF3EBAB0090DADF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		890C85DD1CF3EBAB0090DADF /* Debug */ = {
