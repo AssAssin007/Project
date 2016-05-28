@@ -13,6 +13,15 @@
 		890C861B1CF4498F0090DADF /* Fuck_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C861A1CF4498F0090DADF /* Fuck_TestTests.m */; };
 		890C86261CF4498F0090DADF /* Fuck_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C86251CF4498F0090DADF /* Fuck_TestUITests.m */; };
 		890C863B1CF44EFE0090DADF /* SWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C863A1CF44EFE0090DADF /* SWTabBarController.m */; };
+		890C86421CF454660090DADF /* SWEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C86411CF454660090DADF /* SWEssenceViewController.m */; };
+		890C864E1CF454DF0090DADF /* SWFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C864D1CF454DF0090DADF /* SWFriendViewController.m */; };
+		890C86511CF454F30090DADF /* SWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C86501CF454F30090DADF /* SWMeViewController.m */; };
+		890C86541CF455010090DADF /* SWNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890C86531CF455010090DADF /* SWNewViewController.m */; };
+		897B2BEB1CF5522F00F890B9 /* SWTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2BEA1CF5522F00F890B9 /* SWTabbar.m */; };
+		897B2BEE1CF6AC5600F890B9 /* UIView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2BED1CF6AC5600F890B9 /* UIView+SWExtension.m */; };
+		897B2BF21CF7072A00F890B9 /* UIBarButtonItem+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2BF11CF7072A00F890B9 /* UIBarButtonItem+SWExtension.m */; };
+		897B2BF61CF7AEF600F890B9 /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897B2BF51CF7AEF600F890B9 /* SWNavigationController.m */; };
+		897B2BF81CF92D0E00F890B9 /* SWFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 897B2BF71CF92D0E00F890B9 /* SWFriendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,24 @@
 		890C86271CF4498F0090DADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890C86391CF44EFE0090DADF /* SWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTabBarController.h; sourceTree = "<group>"; };
 		890C863A1CF44EFE0090DADF /* SWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTabBarController.m; sourceTree = "<group>"; };
+		890C86401CF454660090DADF /* SWEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEssenceViewController.h; sourceTree = "<group>"; };
+		890C86411CF454660090DADF /* SWEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEssenceViewController.m; sourceTree = "<group>"; };
+		890C864C1CF454DF0090DADF /* SWFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFriendViewController.h; sourceTree = "<group>"; };
+		890C864D1CF454DF0090DADF /* SWFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFriendViewController.m; sourceTree = "<group>"; };
+		890C864F1CF454F30090DADF /* SWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMeViewController.h; sourceTree = "<group>"; };
+		890C86501CF454F30090DADF /* SWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMeViewController.m; sourceTree = "<group>"; };
+		890C86521CF455010090DADF /* SWNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNewViewController.h; sourceTree = "<group>"; };
+		890C86531CF455010090DADF /* SWNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNewViewController.m; sourceTree = "<group>"; };
+		897B2BE91CF5522F00F890B9 /* SWTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTabbar.h; sourceTree = "<group>"; };
+		897B2BEA1CF5522F00F890B9 /* SWTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTabbar.m; sourceTree = "<group>"; };
+		897B2BEC1CF6AC5600F890B9 /* UIView+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SWExtension.h"; sourceTree = "<group>"; };
+		897B2BED1CF6AC5600F890B9 /* UIView+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWExtension.m"; sourceTree = "<group>"; };
+		897B2BEF1CF6ACCD00F890B9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		897B2BF01CF7072A00F890B9 /* UIBarButtonItem+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SWExtension.h"; sourceTree = "<group>"; };
+		897B2BF11CF7072A00F890B9 /* UIBarButtonItem+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SWExtension.m"; sourceTree = "<group>"; };
+		897B2BF41CF7AEF600F890B9 /* SWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNavigationController.h; sourceTree = "<group>"; };
+		897B2BF51CF7AEF600F890B9 /* SWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNavigationController.m; sourceTree = "<group>"; };
+		897B2BF71CF92D0E00F890B9 /* SWFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWFriendViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				890C860C1CF4498F0090DADF /* Assets.xcassets */,
+				890C86011CF4498F0090DADF /* main.m */,
 				890C86111CF4498F0090DADF /* Info.plist */,
+				897B2BEF1CF6ACCD00F890B9 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -134,9 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				890C86351CF44C110090DADF /* Essence-精华 */,
+				890C86381CF44C750090DADF /* New-新帖 */,
 				890C86361CF44C2D0090DADF /* FriendTrends-朋友关注 */,
 				890C86371CF44C6A0090DADF /* Me-我的 */,
-				890C86381CF44C750090DADF /* New-新帖 */,
 				890C86341CF44BE60090DADF /* other */,
 			);
 			name = Classes;
@@ -146,9 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				890C863C1CF44F0B0090DADF /* Controller */,
-				890C86031CF4498F0090DADF /* AppDelegate.h */,
-				890C86041CF4498F0090DADF /* AppDelegate.m */,
-				890C86011CF4498F0090DADF /* main.m */,
+				897B2BF31CF7AE6800F890B9 /* Categroy */,
 			);
 			name = other;
 			sourceTree = "<group>";
@@ -156,6 +183,9 @@
 		890C86351CF44C110090DADF /* Essence-精华 */ = {
 			isa = PBXGroup;
 			children = (
+				890C863D1CF454090090DADF /* Controller */,
+				890C863E1CF454190090DADF /* View */,
+				890C863F1CF454210090DADF /* Model */,
 			);
 			name = "Essence-精华";
 			sourceTree = "<group>";
@@ -163,6 +193,9 @@
 		890C86361CF44C2D0090DADF /* FriendTrends-朋友关注 */ = {
 			isa = PBXGroup;
 			children = (
+				890C86451CF454970090DADF /* Controller */,
+				890C86441CF454900090DADF /* View */,
+				890C86431CF454840090DADF /* Model */,
 			);
 			name = "FriendTrends-朋友关注";
 			sourceTree = "<group>";
@@ -170,6 +203,9 @@
 		890C86371CF44C6A0090DADF /* Me-我的 */ = {
 			isa = PBXGroup;
 			children = (
+				890C86481CF454B10090DADF /* Controller */,
+				890C86471CF454AC0090DADF /* View */,
+				890C86461CF454A10090DADF /* Model */,
 			);
 			name = "Me-我的";
 			sourceTree = "<group>";
@@ -177,6 +213,9 @@
 		890C86381CF44C750090DADF /* New-新帖 */ = {
 			isa = PBXGroup;
 			children = (
+				890C864B1CF454C50090DADF /* Controller */,
+				890C864A1CF454C00090DADF /* View */,
+				890C86491CF454B80090DADF /* Model */,
 			);
 			name = "New-新帖";
 			sourceTree = "<group>";
@@ -186,8 +225,118 @@
 			children = (
 				890C86391CF44EFE0090DADF /* SWTabBarController.h */,
 				890C863A1CF44EFE0090DADF /* SWTabBarController.m */,
+				897B2BE91CF5522F00F890B9 /* SWTabbar.h */,
+				897B2BEA1CF5522F00F890B9 /* SWTabbar.m */,
+				897B2BF41CF7AEF600F890B9 /* SWNavigationController.h */,
+				897B2BF51CF7AEF600F890B9 /* SWNavigationController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		890C863D1CF454090090DADF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				890C86401CF454660090DADF /* SWEssenceViewController.h */,
+				890C86411CF454660090DADF /* SWEssenceViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		890C863E1CF454190090DADF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		890C863F1CF454210090DADF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		890C86431CF454840090DADF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		890C86441CF454900090DADF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		890C86451CF454970090DADF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				890C864C1CF454DF0090DADF /* SWFriendViewController.h */,
+				890C864D1CF454DF0090DADF /* SWFriendViewController.m */,
+				897B2BF71CF92D0E00F890B9 /* SWFriendViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		890C86461CF454A10090DADF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		890C86471CF454AC0090DADF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		890C86481CF454B10090DADF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				890C864F1CF454F30090DADF /* SWMeViewController.h */,
+				890C86501CF454F30090DADF /* SWMeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		890C86491CF454B80090DADF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		890C864A1CF454C00090DADF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		890C864B1CF454C50090DADF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				890C86521CF455010090DADF /* SWNewViewController.h */,
+				890C86531CF455010090DADF /* SWNewViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		897B2BF31CF7AE6800F890B9 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				890C86031CF4498F0090DADF /* AppDelegate.h */,
+				890C86041CF4498F0090DADF /* AppDelegate.m */,
+				897B2BEC1CF6AC5600F890B9 /* UIView+SWExtension.h */,
+				897B2BED1CF6AC5600F890B9 /* UIView+SWExtension.m */,
+				897B2BF01CF7072A00F890B9 /* UIBarButtonItem+SWExtension.h */,
+				897B2BF11CF7072A00F890B9 /* UIBarButtonItem+SWExtension.m */,
+			);
+			name = Categroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897B2BF81CF92D0E00F890B9 /* SWFriendViewController.xib in Resources */,
 				890C860D1CF4498F0090DADF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,9 +469,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897B2BF21CF7072A00F890B9 /* UIBarButtonItem+SWExtension.m in Sources */,
+				890C86511CF454F30090DADF /* SWMeViewController.m in Sources */,
 				890C863B1CF44EFE0090DADF /* SWTabBarController.m in Sources */,
+				897B2BEE1CF6AC5600F890B9 /* UIView+SWExtension.m in Sources */,
 				890C86051CF4498F0090DADF /* AppDelegate.m in Sources */,
+				897B2BEB1CF5522F00F890B9 /* SWTabbar.m in Sources */,
 				890C86021CF4498F0090DADF /* main.m in Sources */,
+				890C86421CF454660090DADF /* SWEssenceViewController.m in Sources */,
+				890C86541CF455010090DADF /* SWNewViewController.m in Sources */,
+				897B2BF61CF7AEF600F890B9 /* SWNavigationController.m in Sources */,
+				890C864E1CF454DF0090DADF /* SWFriendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "Fuck-Test/PrefixHeader.pch";
 				INFOPLIST_FILE = "Fuck-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HM.Fuck-Test";
@@ -456,6 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "Fuck-Test/PrefixHeader.pch";
 				INFOPLIST_FILE = "Fuck-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HM.Fuck-Test";
@@ -528,6 +688,7 @@
 				890C862C1CF4498F0090DADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890C862D1CF4498F0090DADF /* Build configuration list for PBXNativeTarget "Fuck-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +697,7 @@
 				890C862F1CF4498F0090DADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890C86301CF4498F0090DADF /* Build configuration list for PBXNativeTarget "Fuck-TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +706,7 @@
 				890C86321CF4498F0090DADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
